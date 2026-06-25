@@ -1,0 +1,8 @@
+# Default theme: dark blue (not pure black), dark mode by default
+[theme]
+base = "dark"
+primaryColor = "#7C6CF0"
+backgroundColor = "#0D1B2E"
+secondaryBackgroundColor = "#152641"
+textColor = "#E6EDF7"
+font = "sans serif"

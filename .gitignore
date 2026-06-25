@@ -1,0 +1,31 @@
+# ============================================================
+#  SECRETS — never commit these. Your Anthropic API key
+#  lives in .env. A committed key is a public key.
+# ============================================================
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ============================================================
+#  OS / editor noise
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Note: .env.example IS tracked on purpose — it is a safe
+# template with no real key.

@@ -1,0 +1,8 @@
+﻿initiative,first_week_lift,app_install_lift,trc_usage_lift,sub_conversion_lift,retention_lift,cpm_lift,cost,confidence,speed,complexity,strategic_fit,risk,thesis
+Onboarding Optimization,0.15,0.1,0,0,0,0,750000,4,4,2,5,2,Improve first-week setup and content discovery to lift early engagement and downstream retention.
+Home Screen Discovery Personalization,0.08,0,0.1,0,0.02,0,1500000,3,3,4,5,3,Personalized rows and recommendations to deepen engagement across the household lifecycle.
+Roku Channel-Style Engagement Push,0,0,0.2,0,0,0,900000,4,4,2,4,2,"Drive owned free-channel viewing, which carries high-margin ad inventory and correlates with retention."
+Subscription Merchandising,0,0,0,0.18,0,0,600000,4,5,2,4,2,"Better placement, bundling, and offers to convert engaged households to subscriptions."
+Win-back / Reactivation Campaign,0,0,0,0,0.05,0,1100000,3,3,3,3,3,"Targeted campaigns to recover lapsing households, modeled as a retention-curve lift."
+International Lifecycle Optimization,0.1,0,0,0,0.03,0.08,2000000,2,2,4,4,4,Localize onboarding and monetization in international markets where retention and CPMs lag the US.
+Reporting Infrastructure / BI Automation,0,0,0,0,0,0,500000,5,3,3,4,1,"Automate cohort/CLV reporting so the team spends time on analysis and decisions, not data pulls. (No direct driver lift — value is indirect, so it classifies as an enabler.)"

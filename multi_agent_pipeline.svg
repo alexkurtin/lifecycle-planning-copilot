@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 360" font-family="Segoe UI, Inter, sans-serif">
+  <rect width="1180" height="360" fill="#0D1B2E"/>
+  <text x="590" y="42" text-anchor="middle" fill="#E6EDF7" font-size="22" font-weight="600">Lifecycle Planning Copilot — Multi-Agent Architecture</text>
+  <text x="590" y="66" text-anchor="middle" fill="#8CA3C0" font-size="13">Transparent Python agents do the math; Claude turns model outputs into executive narrative. All data is synthetic.</text>
+
+  <!-- Deterministic pipeline row -->
+  <g font-size="14" text-anchor="middle">
+    <!-- Data Agent -->
+    <rect x="40" y="110" width="190" height="92" rx="12" fill="#152641" stroke="#7C6CF0" stroke-width="1.5"/>
+    <text x="135" y="142" fill="#E6EDF7" font-weight="600">1 · Data Agent</text>
+    <text x="135" y="164" fill="#9FB3D1" font-size="11.5">Synthetic cohorts / CSV upload</text>
+    <text x="135" y="181" fill="#9FB3D1" font-size="11.5">Validation &amp; quality warnings</text>
+
+    <!-- Segmentation -->
+    <rect x="270" y="110" width="190" height="92" rx="12" fill="#152641" stroke="#7C6CF0" stroke-width="1.5"/>
+    <text x="365" y="142" fill="#E6EDF7" font-weight="600">2 · Segmentation</text>
+    <text x="365" y="164" fill="#9FB3D1" font-size="11.5">Engagement scoring</text>
+    <text x="365" y="181" fill="#9FB3D1" font-size="11.5">High / Med / Low segments</text>
+
+    <!-- CLV -->
+    <rect x="500" y="110" width="190" height="92" rx="12" fill="#152641" stroke="#7C6CF0" stroke-width="1.5"/>
+    <text x="595" y="142" fill="#E6EDF7" font-weight="600">3 · CLV Model</text>
+    <text x="595" y="164" fill="#9FB3D1" font-size="11.5">Driver-based revenue &amp; profit</text>
+    <text x="595" y="181" fill="#9FB3D1" font-size="11.5">Discounted 24-month CLV</text>
+
+    <!-- Scenario -->
+    <rect x="730" y="110" width="190" height="92" rx="12" fill="#152641" stroke="#7C6CF0" stroke-width="1.5"/>
+    <text x="825" y="142" fill="#E6EDF7" font-weight="600">4 · Scenario Planner</text>
+    <text x="825" y="164" fill="#9FB3D1" font-size="11.5">What-if lifts &amp; elasticities</text>
+    <text x="825" y="181" fill="#9FB3D1" font-size="11.5">Incremental value, ROI, payback</text>
+
+    <!-- Prioritization -->
+    <rect x="960" y="110" width="190" height="92" rx="12" fill="#152641" stroke="#7C6CF0" stroke-width="1.5"/>
+    <text x="1055" y="142" fill="#E6EDF7" font-weight="600">5 · Prioritization</text>
+    <text x="1055" y="164" fill="#9FB3D1" font-size="11.5">Modeled impact + planning scores</text>
+    <text x="1055" y="181" fill="#9FB3D1" font-size="11.5">Quick wins / bets / enablers</text>
+  </g>
+
+  <!-- Arrows between pipeline stages -->
+  <g stroke="#7C6CF0" stroke-width="2" fill="#7C6CF0">
+    <line x1="230" y1="156" x2="262" y2="156"/><polygon points="262,150 274,156 262,162"/>
+    <line x1="460" y1="156" x2="492" y2="156"/><polygon points="492,150 504,156 492,162"/>
+    <line x1="690" y1="156" x2="722" y2="156"/><polygon points="722,150 734,156 722,162"/>
+    <line x1="920" y1="156" x2="952" y2="156"/><polygon points="952,150 964,156 952,162"/>
+  </g>
+
+  <!-- Claude narrative agent -->
+  <rect x="330" y="258" width="520" height="74" rx="12" fill="#1A2342" stroke="#2BD9A9" stroke-width="1.5"/>
+  <text x="590" y="287" text-anchor="middle" fill="#E6EDF7" font-size="14" font-weight="600">6 · Claude Executive Narrative Agent</text>
+  <text x="590" y="308" text-anchor="middle" fill="#9FB3D1" font-size="11.5">Cohort insights · CLV drivers · Scenario interpretation · Prioritization rationale · Executive memo</text>
+  <text x="590" y="324" text-anchor="middle" fill="#6F87A8" font-size="10.5">Grounded only in summarized model outputs — no raw data, no unsupported claims</text>
+
+  <!-- Flows from model agents into Claude -->
+  <g stroke="#2BD9A9" stroke-width="1.5" fill="none" stroke-dasharray="5,4">
+    <path d="M 135 202 C 135 240, 330 250, 360 262"/>
+    <path d="M 595 202 L 595 256"/>
+    <path d="M 1055 202 C 1055 240, 850 250, 820 262"/>
+  </g>
+  <g fill="#2BD9A9">
+    <polygon points="354,256 366,264 352,268"/>
+    <polygon points="589,254 595,264 601,254"/>
+    <polygon points="826,256 814,264 828,268"/>
+  </g>
+</svg>
